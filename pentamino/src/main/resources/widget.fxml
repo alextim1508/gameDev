@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alextim.frontend.Controller">
+   <children>
+      <MeshView layoutX="239.0" layoutY="170.0" />
+      <Button layoutX="493.0" layoutY="46.0" mnemonicParsing="false" onAction="#show" text="Button" />
+      <Rectangle fx:id="rec0" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="26.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="69.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="112.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="69.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="26.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="155.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="26.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="155.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="112.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="69.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="112.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="155.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="26.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="69.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="112.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle fx:id="rec15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="155.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+   </children>
+</AnchorPane>
