@@ -61,7 +61,7 @@ public class AlgorithmX {
 
             answer.pop();
 
-            for (Node row = node.right; row != node; row = row.right)
+            for (Node row = node.left; row != node; row = row.left)
                 restore(row.header);
         }
         restore(header);
@@ -107,8 +107,8 @@ public class AlgorithmX {
         header.right.left = header;
         header.left.right = header;
 
-        for (Node node = header.down; node != header; node = node.down) {
-            for(Node row = node.right; row != node; row = row.right) {
+        for (Node node = header.up; node != header; node = node.up) {
+            for(Node row = node.left; row != node; row = row.left) {
                 row.down.up = row;
                 row.up.down = row;
                 row.header.size++;

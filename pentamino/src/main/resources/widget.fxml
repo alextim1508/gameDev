@@ -15,5 +15,7 @@
       <TextField fx:id="pathFile" layoutX="235.0" layoutY="55.0" />
       <Button layoutX="120.0" layoutY="55.0" mnemonicParsing="false" onAction="#onChooseFile" text="Выбрать файл" />
       <Button layoutX="508.0" layoutY="11.0" mnemonicParsing="false" onAction="#onLinksDance" text="танцуем" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <Button layoutX="456.0" layoutY="361.0" mnemonicParsing="false" onAction="#onNextAnswer" prefHeight="25.0" prefWidth="130.0" text="Следующий ответ" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+      <Label fx:id="status" layoutX="570.0" layoutY="341.0" text="-" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="5.0" />
    </children>
 </AnchorPane>
